@@ -3,7 +3,7 @@
 # and the server counterpart to lua/b0RemoteApiServer.lua
 # -------------------------------------------------------
 
-import b0
+from environment import b0
 import msgpack
 import random
 import string
